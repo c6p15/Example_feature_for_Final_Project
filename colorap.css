@@ -1,0 +1,56 @@
+body{
+    background-color: #2E2E50;
+}
+
+#firstbox{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 305px;
+    margin-top: 70px; 
+}
+
+#AddressInfo{
+    width: 450px;
+    height: 324px;
+    background-color: white;
+    display: block;
+    float: left;
+    
+}
+label{
+    margin: 10px;
+}
+
+#box{
+    margin-left: 30px;
+    width: 400px;
+}
+
+#map{
+    width: 450px;
+    height: 324px;
+    background-color: white;
+    display: block;
+    float: left;
+    margin-left: 44px;
+
+}
+
+#fourthbox{
+    display: flex;
+	height: auto;
+    margin-top: 23px;
+}
+
+#submit{
+    margin-top: 25%;
+    margin-left: 70px;
+    text-align: center;
+    font-size: 25px;
+    height: 100px;
+    width: 100px;
+    background-color: #FB9E32;
+    border-radius: 50%;
+    display: inline-block;
+}

@@ -1,0 +1,156 @@
+body{
+    background-color: #2E2E50;
+}
+
+#uploadbox{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 305px;
+    margin-top: 70px; 
+}
+
+#upload{
+    width: 1020px;
+    height: 275px;
+    border: black dashed 1px;
+}
+
+.photo{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#upload-text{
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    font-size: 24px;
+}
+
+#firstbox{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	height: auto;
+    margin-top: 23px;
+}
+
+#headandinfo{
+    width: 1020px;
+    height: 275px;
+    background-color: white;
+    display: block;
+}
+
+#heading{
+    margin: 20px;
+    font-size: 30px;
+}
+
+#infomation{
+    margin-left: 20px;
+    font-size: 15px;
+    width: 70%;
+    height: 50%;
+    
+}
+
+#secondbox{
+    display: flex;
+	height: auto;
+    justify-content: center;
+    margin-top: 23px;
+}
+
+#address{
+    width: 302px;
+    height: 108px;
+    background-color: white;
+    display: block;
+    text-align: center;
+    padding: 0;
+    border: none;
+}
+
+#adrress-text{
+    font-size: 30px;
+    opacity: 50%;
+}
+
+#type{
+    width: 703px;
+    height: 108px;
+    background-color: white;
+    display: block;
+    margin-left: 15px;
+}
+
+#type-text{
+    font-size: 30px;
+    opacity: 50%;
+    margin-left: 50px;
+    width: auto;
+    float: left;
+}
+
+#job-type{
+    margin-top: 5%;
+    font-size: 30px;
+    margin-left: 23%;
+    opacity: 50%;
+}
+
+#thirdbox{
+    display: flex;
+	height: auto;
+    justify-content: center;
+    margin-top: 23px;
+}
+
+#aboutmoney{
+    width: 1020px;
+    height: 230px;
+    background-color: white;
+    
+}
+
+#salary{
+    margin: 100px;
+    font-size: 30px;
+    opacity: 50%;
+}
+
+#box{
+    margin-left: 30px;
+    font-size: 30px;
+    width: 100px;
+    text-align: right;
+}
+
+#moneyrate{
+    font-size: 30px;
+    margin-left: 23%;
+    opacity: 50%;
+}
+
+#fourthbox{
+    display: flex;
+	height: auto;
+    margin-top: 23px;
+}
+
+#submit{
+    margin-left: 70px;
+    text-align: center;
+    font-size: 25px;
+    height: 100px;
+    width: 100px;
+    background-color: #5A75D6;
+    border-radius: 50%;
+    display: inline-block;
+
+}

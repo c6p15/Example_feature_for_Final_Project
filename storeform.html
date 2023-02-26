@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>store form</title>
+    <link rel="stylesheet" href="colorsf.css">
+</head>
+<body>
+    <div id="uploadbox">
+        <div id="upload">
+            <img class="photo" src="uploadrubbparb.png">
+        <p id="upload-text">
+            เลือกรูปภาพของคุณเพื่ออัพโหลด
+        </p>
+        </div>
+    </div>
+    <div id="firstbox">
+        <div id="headandinfo">
+            <input type="text" id="heading" name="heading" placeholder="หัวเรื่อง">
+            <textarea type="text" id="infomation" name="infomation" rows="4" cols="50" placeholder="รายละเอียดเพิ่มเติม"></textarea>
+        </div>
+    </div>
+    <div id="secondbox">
+        <button id="address" onclick="document.location='addresspage.html'">
+            <p id="adrress-text">สถานที่ปฎิบัติงาน</p>
+        </button>
+        <div id="type">
+            <p id="type-text">ประเภทงาน</p>
+            <select id="job-type">
+                <option>งานพาร์ทไทม์</option>
+                <option>งานประจำ</option>
+            </select>
+        </div>
+    </div>
+    <div id="thirdbox">
+        <div id="aboutmoney">
+            <div id="salary">
+                <label id="pay-amount">จำนวนเงิน
+                    <input type="text" id="box" name="amount" placeholder="0"> บาท
+                </label>
+                <label id="employee-amount">จำนวนลูกจ้าง
+                    <input type="text" id="bbox" name="amount" placeholder="0"> คน
+                </label> 
+                <select id="moneyrate">
+                    <option>รายวัน</option>
+                    <option>รายชั่วโมง</option>
+                    <option>รายเดือน</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div id="fourthbox">
+        <button id="submit" onclick="document.location='chooseform.html'"> ติ๊กถูก </button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+body{
+    background-color: #2E2E50;
+}
+
+#head{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 80px;
+    color: white;
+}
+
+#big-block{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	height: auto;
+}
+
+.photo{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#store{
+    width: 508px;
+	height: 453px;
+	background-color: #FB9E32;
+	margin: 20px;
+    text-align: center;
+    font-size: 33px;
+    padding: 0;
+    border: none;
+}
+
+#employee{
+    width: 508px;
+	height: 453px;
+	background-color: #5A75D6;
+	margin: 20px;
+    text-align: center;
+    font-size: 33px;
+    padding: 0;
+    border: none;
+}
