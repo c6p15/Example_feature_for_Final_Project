@@ -74,6 +74,7 @@ body{
     text-align: center;
     padding: 0;
     border: none;
+    border-radius: 10px;
 }
 
 #adrress-text{
@@ -144,13 +145,29 @@ body{
 }
 
 #submit{
-    margin-left: 70px;
-    text-align: center;
-    font-size: 25px;
-    height: 100px;
     width: 100px;
+    height: 100px;
     background-color: #5A75D6;
     border-radius: 50%;
-    display: inline-block;
+    box-shadow: 0 6px 10px 0 #000000;
+    
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    
+    position: fixed;
+    left: 50px;
+    bottom: 50px;
 
+}
+
+#check-logo{
+    width: 50px;
+    margin: auto;
+}
+
+div {
+    border-radius: 10px;
+    border: none;
 }
