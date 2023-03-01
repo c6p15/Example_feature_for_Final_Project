@@ -49,6 +49,8 @@ body{
 #heading{
     margin: 20px;
     font-size: 30px;
+    border: none;
+    border-radius: 10px;
 }
 
 #infomation{
@@ -56,6 +58,8 @@ body{
     font-size: 15px;
     width: 70%;
     height: 50%;
+    border: none;
+    border-radius: 10px;
     
 }
 

@@ -9,18 +9,20 @@ body{
 	height: 305px;
     margin-top: 70px; 
 }
-
 #AddressInfo{
     width: 450px;
     height: 324px;
     background-color: white;
     display: block;
     float: left;
+    border-radius: 10px;
     
 }
+
 label{
     margin: 10px;
 }
+
 
 #box{
     margin-left: 30px;
@@ -42,15 +44,24 @@ label{
 	height: auto;
     margin-top: 23px;
 }
-
 #submit{
-    margin-top: 25%;
-    margin-left: 70px;
-    text-align: center;
-    font-size: 25px;
-    height: 100px;
     width: 100px;
+    height: 100px;
     background-color: #FB9E32;
     border-radius: 50%;
-    display: inline-block;
+    box-shadow: 0 6px 10px 0 #000000;
+    
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    
+    position: fixed;
+    left: 50px;
+    bottom: 50px;
+}
+
+#check-logo{
+    width: 50px;
+    margin: auto;
 }
